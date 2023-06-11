@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;  
+    font-family: 'Titillium Web', sans-serif;
+}
+section{
+    padding: 75px 0px;
+}
+p{
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 300;
+}
+.btn{
+    width: 200px;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.heading{
+   font-size: 25px;
+   font-weight: 600;
+   text-transform: uppercase;
+}
+.sub-heading{
+text-transform: uppercase;
+margin: 20px auto;
+font-size: 25px;
+font-weight: bold;
+line-height: 20px;
+}
+.underline{
+    border-top: 5px solid rgba(59, 58, 58, 0.212);
+    width: 8%;
+    margin: 10px auto;
+}
+.writing-part{
+margin-bottom: 50px;
+}
+/* .box-part{
+padding: 0px 25px;
+} */
+.box{
+
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    float: left;
+} 
+[class*="col-"] {
+    float: left;
+  }
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+header{
+    background-color: #87509C;
+}
+nav{
+    padding: 10px 0px;
+}
+/* logo-part */
+.logo-part{
+width: 50%;
+float: left;
+}
+/* menu-part */
+.menu-part{
+width: 50%;
+float: left;
+}
+.menu-part ul{
+text-align: end;
+padding: 6px 0px;
+}
+.menu-part li{
+list-style: none;
+display: inline-block;
+margin: 0px 15px;
+}
+.menu-part a{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffff;
+}
+.menu-part ul li a:hover{
+    color: #643A79;
+    /* padding: 5px 10px; */
+    border-radius: 10px;
+}
+.hero-part{
+    padding: 150px 100px;
+    text-align: center;
+}
+.hero-part h1{
+    color: #ffff;
+    text-align:center;
+    font-size: 40px;
+    line-height: 40px;
+}
+.hero-part button{
+    background-color: #EB7D4B;
+    color: #ffff;
+    margin-top: 60px;
+}
+#service{
+    background-color: #17C2A4;
+    color: #ffff;
+    text-align: center;
+}
+#service .box-part img{
+height: 150px;
+}
+#team{
+    background-color: #E7F1F8;
+    text-align: center;
+}
+#team .box-part p{
+margin: 20px 0px;
+}
+.team-icon-box{
+margin-top: 10px;
+}
+.team-icon-box i{
+font-size: 20px;
+background-color: #E7F1F8;
+padding: 12px;
+width: 30px;
+border-radius: 100%;
+}
+.p-t{
+    font-size: 18px;
+    color: #48C1E9;
+}
+
+#skills{
+    background-color: #ffff;
+    text-align: center;
+}
+/* portfolio section */
+#portfolio{
+    background-color: #FFDD99;
+    text-align: center;
+}
+.portpolio-btn-box{
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
+.portpolio-btn-box button{
+    padding: 10px 10px;
+    width: 100px;
+    margin: 10px;
+    background-color: #EBC985
+}
+.portpolio-btn-box button:hover{
+    background-color: #ffff;
+}
+#portfolio .box-part{
+    margin-bottom: 50px;
+}
+#portfolio .box p{
+    margin-top: 20px;
+}
+.portpolio-btn-box{
+margin-top: 50px;
+}
+/* about-part */
+#about{
+    background-color: #D74680;
+    text-align: center;
+}
+/* form-part */
+#contact{
+    background-color: #3C5499;
+    color: #ffff;
+    text-align: center;
+}
+form{
+    width: 60%;
+    margin: auto;
+}
+.form-part-one{
+margin-bottom: 20px;
+}
+input,textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #273A71;
+    color: #ffff;
+}
+input::placeholder,
+textarea::placeholder{
+    color: #ffff;
+    text-transform: capitalize;
+}
+input[type="text"]{
+width: 98%;
+margin-right: 2%;
+}
+input[type="email"]{
+width: 98%;
+margin-left: 2%;
+}
+input[type="submit"]{
+    background-color: #30BAE7;
+    margin-top: 20px;
+}
+#footer{
+    background-color: #344B8E;
+}
+.footer-part{
+    width: 100%;
+    /* float: left; */
+}
+.footer-part ul{
+    text-align: center;
+    padding: 10px 0px;
+}
+.footer-part li{
+list-style: none;
+display: inline-block;
+margin: 5px 10px;
+}
+.footer-part li a{
+    font-size: 150%;
+    font-weight: 500;
+    color: #ffff;
+}
+.footer-part ul li a:hover{
+    color: #30BAE7;
+}
